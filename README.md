@@ -29,7 +29,7 @@ resources/
     │   ├── Inputs/             # Reusable Modular Components
     ├── contexts/               # React Context Providers
     ├── hooks/                  # React Custom Hooks for State Management 
-                                 (Replaced, still here only for showcasing purposes)
+    │                            (Replaced, still here only for showcasing purposes)
     ├── types/                  # TypeScript Custom Type Definitions
     └── styles/                 # CSS
 ```
