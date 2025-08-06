@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    
+    // Project Configuration
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Lint Configurations
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    
+    // Import Aliases
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./resources/js/*"],
+      "@components/*": ["./resources/js/components/*"],
+      "@pages/*": ["./resources/js/pages/*"],
+      "@types/*": ["./resources/js/types/*"],
+      "@hooks/*": ["./resources/js/hooks/*"],
+      "@contexts/*": ["./resources/js/contexts/*"]
+    },
+  },
+  "include": ["resources/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
